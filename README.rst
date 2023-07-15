@@ -208,6 +208,7 @@ Check HSTS list
 
 DNS lookup
 ----------
+Once the browser makes a request to the DNS server configured in the network stack, the DNS server begins the resolution process. It follows a series of steps to find the IP address associated with the requested domain name and then:
 
 * Browser checks if the domain is in its cache. (to see the DNS Cache in
   Chrome, go to `chrome://net-internals/#dns <chrome://net-internals/#dns>`_).
